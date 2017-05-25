@@ -36,5 +36,10 @@ sent data between Esp8266 and GoogleSpreadSheet
 
 **ในการแก้ไข Esp8266_SpredSheet.gs (Scrip) ต้อง Publish >> Deploy as Web App >> Project Version > new > Update
 
+**การต่อบน nodeMCU
+   LED--D0 
+   DHT--D3
+  
+
   
     
