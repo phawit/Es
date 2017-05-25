@@ -1,11 +1,11 @@
 # Esp8266_SpredSheet
-sent data between Esp8266 and GoogleSpreadSheet
-
 NodeMCU >> Scrip >> SpredSheet
+sent data between Esp8266 and GoogleSpreadSheet
 
 1.Data2Sheet.ino (NodeMCU)
   -ตั้งค่า macros มาใส่ใน *GScriptId เอามาจาก Data2Sheet.gs (Scrip)
   -ตั้งค่า fingerprint จาก echo | openssl s_client -connect script.google.com:443 |& openssl x509 -fingerprint -noout
+
 
 2.Data2Sheet.gs (Scrip)
   -Publish >> Deploy as Web App...>>ตั้งเป็น anyone,even anonomous และ copy macrosURL
