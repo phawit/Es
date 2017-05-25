@@ -32,7 +32,7 @@ sent data between Esp8266 and GoogleSpreadSheet
   -ตั้งชื่อ หัวข้อ
   
   
-5.On-Off LED ใน C2 ของ Menu(SpredSheet)
+5.On-Off LED ใน C2 ของ Menu(SpredSheet) code อยู่ใน Esp8266_SpredSheet/libraries/HTTPSRedirect/HTTPSRedirect.cpp
 
 **ในการแก้ไข Esp8266_SpredSheet.gs (Scrip) ต้อง Publish >> Deploy as Web App >> Project Version > new > Update
 
